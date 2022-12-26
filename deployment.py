@@ -4,7 +4,7 @@ import openai
 import urllib.request # url
 from PIL import Image # pillow for image processing
 
-openai.api_key="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"
+openai.api_key="API key"
 def image_gen(description):
     try:
         img_response = openai.Image.create(     # image will create and store
